@@ -1,0 +1,36 @@
+.input-container {
+  width: 80%;
+  max-width: 320px;
+  height: 50px;
+
+  padding:  0 1.2em;
+  margin:  0 auto 20px auto;
+
+  background: #EEE;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+}
+
+.input-container .input-login {
+  display: flex;
+}
+
+.input-container .input-login input {
+  flex: 1;
+
+  padding: 0;
+}
+
+.input-container .input-login div {
+  width: 20px;
+  height: 20px;
+  display: contents;
+}
+
+.input-container .input-login div svg {
+  width: 14px;
+
+  margin-right: 0.7em;
+  
+  fill: #888;
+}

@@ -1,0 +1,24 @@
+.user-status {
+  width: 90%;
+  max-width: 450px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin: 18px auto 18px auto;
+}
+
+.user-status span {
+  text-transform: capitalize;
+  font-size: 1em;
+}
+
+.users-container {
+  width: 90%;
+  max-width: 450px;
+
+  display: flex;
+  flex-direction: column;
+}

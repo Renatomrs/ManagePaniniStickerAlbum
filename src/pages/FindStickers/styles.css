@@ -1,0 +1,36 @@
+.container {
+  width: 90%;
+  max-width: 450px;
+  height: 50px;
+
+  padding:  0 1.2em;
+  margin:  32px auto 20px auto;
+
+  background: #EEE;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+}
+
+.container .input-search {
+  display: flex;
+}
+
+.container .input-search input {
+  flex: 1;
+
+  padding: 0;
+}
+
+.container .input-search div {
+  width: 20px;
+  height: 20px;
+  display: contents;
+}
+
+.container .input-search div svg {
+  width: 14px;
+
+  margin-right: 1.2em;
+  
+  fill: #888;
+}

@@ -1,0 +1,21 @@
+.input-field {
+  width: 80%;
+  max-width: 320px;
+
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto 20px auto;
+}
+
+.input-field .label {
+  color: #777;
+  font-weight: bold;
+
+  margin-bottom: 4px;
+}
+
+.input-field input {
+  background: #EEE;
+  border-color: #DDD;
+}

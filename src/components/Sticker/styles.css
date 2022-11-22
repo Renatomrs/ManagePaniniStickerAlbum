@@ -1,0 +1,27 @@
+.stickers-container {
+  width: 90%;
+  max-width: 450px;
+}
+
+.stickers-container:first-child {
+  padding-top: 20px;
+}
+
+.price-container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-top: 25px;
+}
+
+.price-container span {
+  font-size: 1.5em;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}

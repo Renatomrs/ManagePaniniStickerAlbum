@@ -1,0 +1,21 @@
+.ul {
+  width: 175px;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 2px;
+
+  box-shadow: 0 2px 5px 0 #DDD;
+
+  background-color: #FFF;
+
+  transition: 900ms;
+
+  z-index: 1;
+}
+
+.hiddenul {
+  display: none;
+  transition: 900ms;
+}

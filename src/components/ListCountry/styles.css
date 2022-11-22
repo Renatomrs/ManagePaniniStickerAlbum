@@ -1,0 +1,35 @@
+.stickers-album-container {
+  width: 100%;
+  max-width: 1316px;
+}
+
+.flag {
+  display: flex;
+  align-items: center;
+
+  margin: 12px 0px 5px 18px;
+}
+
+.flag span {
+  font-size: 19px;
+}
+
+.flag h2 {
+  font: 400 18px 'Roboto', sans-serif;
+  text-transform: capitalize;
+
+  margin-left: 5px;
+}
+
+.scroll-snap {
+  display: grid;
+  grid-auto-flow: column;
+  scroll-behavior: auto;
+  gap: 14px;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+
+  padding: 0 18px;
+}

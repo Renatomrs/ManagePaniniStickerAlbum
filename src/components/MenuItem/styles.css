@@ -1,0 +1,19 @@
+nav .ul .button-menu {
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 4px;
+}
+
+nav .button-menu svg {
+  width: 15px;
+  height: 15px;
+  margin-right: 14px;
+  fill: #888;
+}
+
+nav .button-menu span {
+  color: #777;
+}
